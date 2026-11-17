@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Cac ham in bang du lieu HRM thong qua ConsoleUI.
- * File doc lap, khong can sua cac class hien co trong project.
- */
 public class PrintTables {
     private static Employee searchEmployee(Employee[] employees, String id) {
         if (employees == null || id == null) return null;
